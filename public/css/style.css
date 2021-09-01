@@ -393,7 +393,7 @@ website:    http://www.deepakchandra.in
 	top: 100%;
 	left: 0;
 	width: 220px;
-	background: #282828;
+	background: #98bc24;
 	padding: 10px 0;
 	opacity: 0;
 	visibility: hidden;
@@ -413,7 +413,7 @@ website:    http://www.deepakchandra.in
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	display: block;
-	color: #898585;
+	color: #eeeded;
 	font-size: 13px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
@@ -429,7 +429,7 @@ website:    http://www.deepakchandra.in
 	display: block;
 	margin-top: -40px;
 	margin-left: 140px;
-	background: #000000;
+	background: #98bc24;
 }
 .navbar-nav li.drop ul.dropdown li a:hover {
 	color: #fff;
@@ -539,7 +539,7 @@ header.active .navbar-nav > li > a:hover, header.active .navbar-nav > li > a.act
 /*-------------------------------------------------*/
 body {
 	font-family: Open Sans;
-	font-size: 13px;
+	font-size: 16px;
 	color: #2e363a;
 	background: #f7f8fa;
 }
@@ -547,7 +547,7 @@ a:focus {
 	outline: 0;
 }
 p {
-	font-size: 14px;
+	font-size: 16px;
 	color: #6E6E6E;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -1280,7 +1280,7 @@ a.request-quote .fa {
 	transition: all 0.4s ease-in-out;
 }
 .icon-box.ib-style-3 .ib-info {
-	padding-left: 10rem;
+	padding-left: 13rem;
 	padding-top: 15px;
 }
 .icon-box .ib-info {
@@ -1294,7 +1294,7 @@ a.request-quote .fa {
 	font-weight: bold;
 }
 .icon-box p {
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 24px;
 }
 .icon-box.ib-bordered .ib-icon {
@@ -2324,7 +2324,7 @@ a.request-quote .fa {
 	font-weight: 600;
 }
 .essential-place li .name p {
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 26px;
 	color: #999999;
 	margin-bottom: 0;
@@ -2785,7 +2785,7 @@ a.request-quote .fa {
 }
 .about-section2 {
 	padding: 70px 0px 120px;
-	background: #fff url("../images/garden-man.png") no-repeat right bottom;
+	background: #fff;
 }
 .agent-section {
 	background: url("../images/test-bg.jpg") no-repeat right bottom;
@@ -2960,7 +2960,7 @@ a.request-quote .fa {
 .page-banner-section {
 	padding: 120px 0 65px;
 	position: relative;
-	background: url('../upload/banners/ban.jpg') center;
+	background: url('../upload/banners/banner.jpg') center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -4480,7 +4480,7 @@ a.request-quote .fa {
 	margin-bottom: 19px;
 }
 #checkout-content .order-box ul li span {
-	float: right;
+	float:right;
 	display: inline-block;
 	color: #8e8d8d;
 }
@@ -5012,7 +5012,7 @@ footer .up-footer p {
 	color: #8c8c8c;
 }
 footer .up-footer img {
-	margin-top: 20px;
+	margin-top: 80px;
 }
 footer .up-footer ul.tag-list {
 	margin: 0;
