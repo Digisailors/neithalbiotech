@@ -24,6 +24,7 @@
   <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
   <link rel="stylesheet" type="text/css" href="flaticon/flaticon.css" media="screen">
+  <script src="js/contact.js"></script>
 </head>
 
 <body>
@@ -135,27 +136,25 @@
           <div class="separator small-separator"></div>
         </div>
         <div class="col-md-8">
-          <form id="contact-form">
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-              onload="if(submitted) {window.location='https://www.google.co.in/?gws_rd=ssl';}"></iframe>
-            <form
-              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScTgcvxc5E6FR5910DYlMjWxrmoiNcO52J7HLJm4S8rKU2UzA/formResponse"
-              method="POST" target="hidden_iframe" onsubmit="return validateForm(); ">
-              <div class="row">
-                <div class="col-md-6">
-                  <input required name="entry.2146388482" id="contactName" type="text" placeholder="Name *">
-                </div>
-                <div class="col-md-6">
-                  <input required name="entry.1446115959" id="contactEmail" type="text" placeholder="Email">
-                </div>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+            onload="if(submitted) {window.location='https://neithalbiotech.com/';}"></iframe>
+          <form id="contact-form"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZqdmv8P1iIyP8V2rgLJJm7lUZ2zrpO9BXUlqJXNm38xmu1Q/formResponse"
+            target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateForm(); ">
+            <div class="row">
+              <div class="col-md-6">
+                <input required name="entry.2005620554" id="contactName" type="text" placeholder="Name *">
               </div>
-              <textarea name="entry.1502628376" id="contactMessage" type="text" placeholder="Your message"></textarea>
+              <div class="col-md-6">
+                <input required name="entry.1045781291" id="contactEmail" type="text" placeholder="Email">
+              </div>
+            </div>
+            <textarea name="entry.839337160" id="contactMessage" type="text" placeholder="Your message"></textarea>
 
 
-              <button type="submit"
-                style="width: 131px; height: 57px; color: white; background-color: black; font-size: medium;">submit</button>
-              <div id="msg" class="message"></div>
-            </form>
+            <button type="submit"
+              style="width: 131px; height: 57px; color: white; background-color: black; font-size: medium;">submit</button>
+            <div id="msg" class="message"></div>
           </form>
         </div>
         <div class="col-md-4">
@@ -180,7 +179,11 @@
     <!-- End contact section -->
     <!-- map 
 			================================================== -->
-    <div id="map"></div>
+    <div class="google-maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.925476804276!2d78.11842131478491!3d8.793072093684739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03f12eb6172b3d%3A0xc6c107f939ec6592!2sDigisailor!5e0!3m2!1sen!2sin!4v1630567154277!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     <!-- map -->
     <!-- Buy Now 
 			================================================== -->
@@ -282,67 +285,7 @@
   <script type="text/javascript">let submitted = false;</script>
 
   <script type="text/javascript">
-    function validateName() {
-      var name = document.getElementById('contactName').value;
-      if (name.length == 0) {
-        alert("Name can't be blank");
-        return false;
 
-      }
-      if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-        alert("Please enter your correct name");//Validation Message
-        return false;
-      }
-      return true;
-    }
-
-    function validatePhone() {
-      var phone = document.getElementById('contactPhone').value;
-      if (phone.length == 0) {
-        alert("Phone number can't be blank");//Validation Message
-        return false;
-      }
-
-      if (!phone.match(/^\d{10}$/)) {
-        alert("Please enter a correct phone number");//Validation Message
-        return false;
-      }
-
-      return true;
-
-    }
-
-    function validateEmail() {
-
-      var email = document.getElementById('contactEmail').value;
-      if (email.length == 0) {
-        alert("Email can't be blank");//Validation Message
-        return false;
-
-      }
-
-      if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-        alert("Please enter a correct email address");//Validation Message
-        return false;
-
-      }
-
-      return true;
-
-    }
-
-
-    function validateForm() {
-      if (!validateName() || !validateEmail() || !validatePhone()) {
-
-        alert("Form not submitted");//Validation Message
-        return false;
-      }
-      else {
-        submitted = true;
-        return true;
-      }
-    }
   </script>
 </body>
 
